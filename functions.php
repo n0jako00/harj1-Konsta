@@ -43,7 +43,7 @@ function createUser($dbcon, $fname, $lname, $username, $passwd){
             fname varchar(50) NOT NULL,
             lname varchar(50) NOT NULL,
             uname varchar(50) NOT NULL,
-            passw varchar(50) NOT NULL,
+            passw varchar(150) NOT NULL,
             PRIMARY KEY (username)
             )";
 

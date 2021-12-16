@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS `user`(
     fname VARCHAR(50) NOT NULL,
     lname VARCHAR(50) NOT NULL,
     uname VARCHAR(50) PRIMARY KEY,
-    passw VARCHAR(50) NOT NULL,
+    passw VARCHAR(150) NOT NULL,
     INDEX user_index(uname)
 );
 
